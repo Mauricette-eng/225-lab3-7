@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/fouodom'                                                                    //<------your MiamiID
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Mauricette-eng/225-lab3-7.git'                                    //<------your MiamiID
-        KUBECONFIG = credentials('fouodom-225')                                                         //<------your MiamiID
+        KUBECONFIG = credentials('roseaw-225')                                                         //<------your MiamiID
     }
 
     stages {
